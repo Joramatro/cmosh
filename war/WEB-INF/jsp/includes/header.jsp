@@ -306,7 +306,7 @@
 	</c:when>	
 	<c:otherwise>
 		<title>Bienvenido a Comprar Móviles Hoy - Análisis y opinión sobre móviles libres y smartphones para comprar un móvil barato y comparar precios online</title> 
-		<meta name="description" content="Información para que puedas comprar online móviles libres y baratos para conseguir el móvil más adecuado a tus necesidades y comparar precios y móviles de distintos tipos, smartphones libres, android y baratos, de marcas como Samsung, Sony, Huawei, HTC, LG, Nokia, Motorola, Sony Ericsson o iPhone"/>
+		<meta name="description" content="Información para que puedas comprar online móviles libres y baratos para conseguir el móvil más adecuado a tus necesidades y comparar precios y móviles de distintos tipos, smartphones libres, android y baratos, de marcas como Samsung, Sony, Huawei, HTC, LG, Nokia, Motorola, Sony Ericsson o iPhone."/>
 		<meta name="author" content="Comprar Móviles Hoy" />
 		<meta name="copyright" content="Comprar Móviles Hoy" />
 		<meta name="application-name" content="móviles en Comprar Móviles Hoy" />
