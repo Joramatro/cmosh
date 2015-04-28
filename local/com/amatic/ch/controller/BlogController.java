@@ -92,7 +92,8 @@ public class BlogController extends PublicacionAbstract {
 	} else if (url.endsWith("-5")) {
 	    originalUrl = originalUrl.replace("-5", "");
 	}
-	String key = WebUtils.SHA1(originalUrl.replaceAll("-", " "));
+	String key = WebUtils.SHA1(originalUrl.replaceAll("-", " ")
+		.toLowerCase());
 	Publicacion publicacion = null;
 	if (tipo.equals("principal")) {
 	    publicacion = publicacionService.getPublicacion(key,
@@ -103,7 +104,8 @@ public class BlogController extends PublicacionAbstract {
 	    }
 
 	    if (publicacion == null && !originalUrl.equals(url)) {
-		keyb = new String(WebUtils.SHA1(url.replaceAll("-", " ")));
+		keyb = new String(WebUtils.SHA1(url.replaceAll("-", " ")
+			.toLowerCase()));
 		publicacion = publicacionService.getPublicacion(keyb,
 			WebConstants.SessionConstants.EBOOK);
 		if (publicacion == null) {
@@ -115,7 +117,8 @@ public class BlogController extends PublicacionAbstract {
 	    publicacion = publicacionService.getPublicacion(key,
 		    WebConstants.SessionConstants.ACCESORIO);
 	    if (publicacion == null && !originalUrl.equals(url)) {
-		keyb = new String(WebUtils.SHA1(url.replaceAll("-", " ")));
+		keyb = new String(WebUtils.SHA1(url.replaceAll("-", " ")
+			.toLowerCase()));
 		publicacion = publicacionService.getPublicacion(keyb,
 			WebConstants.SessionConstants.ACCESORIO);
 	    }
