@@ -425,13 +425,15 @@
 	
 	$(window).scroll(function(){
 		if($('#footer').width() >= 855){
-			if($(window).scrollTop() > 1025){
+			if($(window).scrollTop() > 1005){
 				$("#banAmazonHorizontal").css({position:"fixed",top:"20px"});
-			    if($("#banAmazonHorizontal").offset().top + $('#banAmazonHorizontal').outerHeight(true) > $("#ttpi").offset().top - 180){
-			    	$("#banAmazonHorizontal").hide();
-			    }else{
-			    	$("#banAmazonHorizontal").show();
+				var st = $(this).scrollTop();
+			    if($("#banAmazonHorizontal").offset().top + $('#banAmazonHorizontal').outerHeight(true) > $("#ttpi").offset().top - 180 && st > lastScrollTop){
+			    	$("#banAmazonHorizontal").hide("fast");
+			    }else if($("#banAmazonHorizontal").offset().top + $('#banAmazonHorizontal').outerHeight(true) < $("#ttpi").offset().top - 180 && st < lastScrollTop){
+			    	$("#banAmazonHorizontal").show("fast");
 			    }
+			    lastScrollTop = st;
 			}else{
 				$("#banAmazonHorizontal").css({position:"absolute",top:"1025px",left:"54px"});
 			}
