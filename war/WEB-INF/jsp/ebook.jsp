@@ -422,7 +422,7 @@
 			$(".slide-caption").show();
 		}
 	});
-	
+	var lastScrollTop = 0;
 	$(window).scroll(function(){
 		if($('#footer').width() >= 855){
 			if($(window).scrollTop() > 1005){
