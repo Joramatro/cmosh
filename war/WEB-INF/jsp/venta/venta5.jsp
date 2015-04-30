@@ -40,7 +40,8 @@ var google_remarketing_only = false;
 <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/974611599/?label=PhNDCPGA2AgQj8nd0AM&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
-
+<c:if test="${not empty publicacion.script52}">
 <img src="${publicacion.script52}" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+</c:if>
 </body>
 </html>
