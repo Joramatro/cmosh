@@ -26,7 +26,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="${publicacion.titulo} en análisis y online en Comprar Móviles Hoy"/>
 		<meta property="og:description" content="${publicacion.descripcion} en Comprar Móviles Hoy"/>
-		<meta property="og:type" content="movil"/>
+		<meta property="og:type" content="article"/>
 		<meta property="og:url" content="http://www.comprarmovileshoy.com/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
 		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
@@ -51,7 +51,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="${publicacion.titulo}"/>
 		<meta property="og:description" content="${publicacion.descripcion}"/>
-		<meta property="og:type" content="articulos"/>
+		<meta property="og:type" content="article"/>
 		<meta property="og:url" content="http://www.comprarmovileshoy.com/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
 		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
@@ -76,7 +76,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Extras, accesorios, fundas y protectores online para tu móvil en Comprar Móviles Hoy"/>
 		<meta property="og:description" content="Accede a accesorios online para tu móvil como fundas, carcasas, baterías, cargadores, protectores o soportes, para smartphones libres, Android, Sony Ericsson, Blackberry, Motorola, Samsung, Sony, Alcatel, Huawei o Apple"/>
-		<meta property="og:type" content="extras"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comprarmovileshoy.com/extras"/>
 		<c:if test="${!empty publicaciones}">
 			<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
@@ -105,7 +105,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Sobre Nosotros en Comprar Móviles Hoy"/>
 		<meta property="og:description" content="Toda la información sobre los que trabajamos en Comprar Móbil Hoy, su experiencia y valores profesionales"/>
-		<meta property="og:type" content="sobre"/>
+		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comprarmovileshoy.com/sobre"/>
 		<meta property="og:image" content="http://www.comprarmovileshoy.com/img/img-meta/logoGrande.jpg"/>
 		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
@@ -130,7 +130,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Contacta en Comprar Móviles Hoy"/>
 		<meta property="og:description" content="Contacta con los que trabajamos en Comprar Móviles Hoy"/>
-		<meta property="og:type" content="contacto"/>
+		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comprarmovileshoy.com/contacto"/>
 		<meta property="og:image" content="http://www.comprarmovileshoy.com/img/img-meta/logoGrande.jpg"/>
 		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
@@ -156,7 +156,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Móviles de <%= request.getParameter("filtro").replaceAll("-", " ") %> en Comprar Móviles Hoy"/> 
 		<meta property="og:description" content="Análisis, precios y comparativas online de móviles de <%= request.getParameter("filtro").replaceAll("-", " ") %> para que puedas comparar online móviles de distintos tipos, Smartphones libres, android y baratos"/>		
-		<meta property="og:type" content="movil"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comprarmovileshoy.com/moviles"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
@@ -190,7 +190,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Móviles, precios y comparativas online en Comprar Móviles Hoy"/>
 		<meta property="og:description" content="Análisis, precios y comparativas online de móviles para que puedas comparar online y móviles de distintos tipos, smartphones, android, libres y baratos, de marcas como Samsung, Sony, Alcatel, Huawei, HTC, LG, Nokia, Motorola, Sony Ericsson, Blackberry o iPhone"/>
-		<meta property="og:type" content="movil"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comprarmovileshoy.com/moviles"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
@@ -224,7 +224,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Artículos y opinión sobre móviles de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> en Comprar Móviles Hoy"/>
 		<meta property="og:description" content="Opinión y artículos de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> en nuestro blog de los mejores móviles para que puedas comparar precios online y móviles de distintos tipos, smartphones, android, libres y baratos"/>
-		<meta property="og:type" content="articulo"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comprarmovileshoy.com/blog"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
@@ -258,7 +258,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Opinión y detalles sobre móviles para que puedas comparararlos y elegir tu móvil online"/>
 		<meta property="og:description" content="Opinión, artículos y comparativas en nuestro blog de los mejores móviles para que puedas comparar precios online y móviles de distintos tipos, Smartphones libres, android, baratos, de marcas como Samsung, Sony, Alcatel, Huawei, HTC, LG, Nokia, Motorola, Sony Ericsson, Blackberry o iPhone"/>
-		<meta property="og:type" content="articulo"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comprarmovileshoy.com/blog"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
@@ -313,7 +313,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Comprar Móviles Hoy - Análisis y opinión sobre móviles libres y smartphones para comprar un smartphone libre, barato y comparar precios online"/>
 		<meta property="og:description" content="Información para que puedas comprar online el móvil libre más adecuado a tus necesidades y comparar precios y móviles de distintos tipos, smartphones libres, android, baratos, de marcas como Samsung, Sony, Alcatel, Huawei, HTC, LG, Nokia, Motorola, Sony Ericsson, Blackberry o iPhone"/>
-		<meta property="og:type" content="principal"/>
+		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comprarmovileshoy.com"/>
 		<meta property="og:image" content="http://www.comprarmovileshoy.com/img/img-meta/logoGrande.jpg"/>
 		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
