@@ -29,7 +29,7 @@
 		<meta property="og:type" content="movil"/>
 		<meta property="og:url" content="http://www.comprarmovileshoy.com/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
-		<meta property="og:email" content="hola@comprarmovileshoy.com"/>
+		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -54,7 +54,7 @@
 		<meta property="og:type" content="articulos"/>
 		<meta property="og:url" content="http://www.comprarmovileshoy.com/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
-		<meta property="og:email" content="hola@comprarmovileshoy.com"/>
+		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -81,7 +81,7 @@
 		<c:if test="${!empty publicaciones}">
 			<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 		</c:if>
-		<meta property="og:email" content="hola@comprarmovileshoy.com"/>
+		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -107,8 +107,8 @@
 		<meta property="og:description" content="Toda la información sobre los que trabajamos en Comprar Móbil Hoy, su experiencia y valores profesionales"/>
 		<meta property="og:type" content="sobre"/>
 		<meta property="og:url" content="http://www.comprarmovileshoy.com/sobre"/>
-		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
-		<meta property="og:email" content="hola@comprarmovileshoy.com"/>
+		<meta property="og:image" content="http://www.comprarmovileshoy.com/img/img-meta/logoGrande.jpg"/>
+		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -116,7 +116,7 @@
 		<meta name="twitter:creator" content="@Jorge_Amat1">
 		<meta name="twitter:title" content="Sobre nosotros en Comprar Móviles Hoy">
 		<meta name="twitter:description" content="Toda la información sobre los que trabajamos en Comprar Móviles Hoy, su experiencia y valores profesionales">
-		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
+		<meta name="twitter:image" content="http://www.comprarmovileshoy.com/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comprarmovileshoy.com">
 		<!-- end: Twitter tags -->
 		<link rel="canonical" href="http://www.comprarmovileshoy.com/sobre"/>	
@@ -132,8 +132,8 @@
 		<meta property="og:description" content="Contacta con los que trabajamos en Comprar Móviles Hoy"/>
 		<meta property="og:type" content="contacto"/>
 		<meta property="og:url" content="http://www.comprarmovileshoy.com/contacto"/>
-		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
-		<meta property="og:email" content="hola@comprarmovileshoy.com"/>
+		<meta property="og:image" content="http://www.comprarmovileshoy.com/img/img-meta/logoGrande.jpg"/>
+		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -141,7 +141,7 @@
 		<meta name="twitter:creator" content="@Jorge_Amat1">
 		<meta name="twitter:title" content="Contacta con nosotros en Comprar Móviles Hoy">
 		<meta name="twitter:description" content="Contacta con los que trabajamos en Comprar Móviles Hoy">
-		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
+		<meta name="twitter:image" content="http://www.comprarmovileshoy.com/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comprarmovileshoy.com">
 		<!-- end: Twitter tags -->
 		<link rel="canonical" href="http://www.comprarmovileshoy.com/contacto"/>
@@ -163,7 +163,7 @@
 				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 			</c:if>
 		</c:if>
-		<meta property="og:email" content="hola@comprarmovileshoy.com"/>
+		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -197,7 +197,7 @@
 				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 			</c:if>
 		</c:if>
-		<meta property="og:email" content="hola@comprarmovileshoy.com"/>
+		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -231,7 +231,7 @@
 				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 			</c:if>
 		</c:if>
-		<meta property="og:email" content="hola@comprarmovileshoy.com"/>
+		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -265,7 +265,7 @@
 				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 			</c:if>
 		</c:if>
-		<meta property="og:email" content="hola@comprarmovileshoy.com"/>
+		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -292,7 +292,7 @@
 		<meta property="og:title" content="Política de privacidad de Comprar Móviles Hoy"/>
 		<meta property="og:description" content="Política de privacidad y condiciones de uso de Comprar Móviles Hoy"/>
 		<meta property="og:url" content="http://www.comprarmovileshoy.com/politica-de-privacidad"/>
-		<meta property="og:email" content="hola@comprarmovileshoy.com/"/>
+		<meta property="og:site_name" content="Comprar Móviles Hoy/"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -315,8 +315,8 @@
 		<meta property="og:description" content="Información para que puedas comprar online el móvil libre más adecuado a tus necesidades y comparar precios y móviles de distintos tipos, smartphones libres, android, baratos, de marcas como Samsung, Sony, Alcatel, Huawei, HTC, LG, Nokia, Motorola, Sony Ericsson, Blackberry o iPhone"/>
 		<meta property="og:type" content="principal"/>
 		<meta property="og:url" content="http://www.comprarmovileshoy.com"/>
-		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
-		<meta property="og:email" content="hola@comprarmovileshoy.com"/>
+		<meta property="og:image" content="http://www.comprarmovileshoy.com/img/img-meta/logoGrande.jpg"/>
+		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -324,7 +324,7 @@
 		<meta name="twitter:creator" content="@ComprarHoy2">
 		<meta name="twitter:title" content="Análisis y opinión sobre móviles y smartphones libres para comprar un móvil barato y comparar precios online">
 		<meta name="twitter:description" content="Información para que puedas comprar online el móvil libre más adecuado a tus necesidades y comparar precios y móviles de distintos tipos, smartphones libres, android, libres y baratos, de marcas como Samsung, Sony, Alcatel, Huawei, HTC, LG, Nokia, Motorola, Sony Ericsson, Blackberry o iPhone">
-		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
+		<meta name="twitter:image" content="http://www.comprarmovileshoy.com/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comprarmovileshoy.com">
 		<!-- end: Twitter tags -->				
 		<link rel="canonical" href="http://www.comprarmovileshoy.com"/>
