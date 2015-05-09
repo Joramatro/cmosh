@@ -30,6 +30,7 @@
 		<meta property="og:url" content="http://www.comprarmovileshoy.com/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
 		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarmovileshoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -55,6 +56,7 @@
 		<meta property="og:url" content="http://www.comprarmovileshoy.com/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
 		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarmovileshoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -82,6 +84,7 @@
 			<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 		</c:if>
 		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarmovileshoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -164,6 +167,7 @@
 			</c:if>
 		</c:if>
 		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarmovileshoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -198,6 +202,7 @@
 			</c:if>
 		</c:if>
 		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarmovileshoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -232,6 +237,7 @@
 			</c:if>
 		</c:if>
 		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarmovileshoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -266,6 +272,7 @@
 			</c:if>
 		</c:if>
 		<meta property="og:site_name" content="Comprar Móviles Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarmovileshoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
