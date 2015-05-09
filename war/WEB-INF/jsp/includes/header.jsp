@@ -8,8 +8,6 @@
 
 	<!-- start: Meta -->
 	<meta charset="utf-8">
-	<meta name="robots" content="index,all" />
-	<meta name="revisit-after" content="1 days" />
 	<meta name="lang" content="es" />
 	<!-- end: Meta -->
 	
@@ -22,7 +20,6 @@
 		<meta name="description" content="${publicacion.descripcion} en Comprar Móviles Hoy"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Móviles Hoy" />
-		<meta name="application-name" content="Comprar Móviles Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="${publicacion.titulo} en análisis y online en Comprar Móviles Hoy"/>
 		<meta property="og:description" content="${publicacion.descripcion} en Comprar Móviles Hoy"/>
@@ -48,7 +45,6 @@
 		<meta name="description" content="${publicacion.descripcion}"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Móviles Hoy" />
-		<meta name="application-name" content="Comprar Móviles Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="${publicacion.titulo}"/>
 		<meta property="og:description" content="${publicacion.descripcion}"/>
@@ -74,7 +70,6 @@
 		<meta name="description" content="Accede a accesorios online para tu móvil como fundas, carcasas, baterías, cargadores, protectores o soportes, para Smartphones libres, Android, Sony Ericsson, Blackberry, Motorola, Samsung, Sony, Alcatel, Huawei o Apple"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Móviles Hoy" />
-		<meta name="application-name" content="Comprar Moviles Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Extras, accesorios, fundas y protectores online para tu móvil en Comprar Móviles Hoy"/>
 		<meta property="og:description" content="Accede a accesorios online para tu móvil como fundas, carcasas, baterías, cargadores, protectores o soportes, para smartphones libres, Android, Sony Ericsson, Blackberry, Motorola, Samsung, Sony, Alcatel, Huawei o Apple"/>
@@ -104,7 +99,6 @@
 		<meta name="description" content="Toda la información sobre los que trabajamos en Comprar Móviles Hoy, su experiencia y valores profesionales"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Móviles Hoy" />
-		<meta name="application-name" content="Comprar Móviles Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Sobre Nosotros en Comprar Móviles Hoy"/>
 		<meta property="og:description" content="Toda la información sobre los que trabajamos en Comprar Móbil Hoy, su experiencia y valores profesionales"/>
@@ -129,7 +123,6 @@
 		<meta name="description" content="Contacta con los que trabajamos en Comprar Móviles Hoy"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Móviles Hoy" />
-		<meta name="application-name" content="Comprar Móviles Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Contacta en Comprar Móviles Hoy"/>
 		<meta property="og:description" content="Contacta con los que trabajamos en Comprar Móviles Hoy"/>
@@ -155,7 +148,6 @@
 		<meta name="description" content="Análisis, precios y comparativas online de móviles de <%= request.getParameter("filtro").replaceAll("-", " ") %> para que puedas comparar online móviles de distintos tipos, Smartphones libres, android y baratos"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Móviles Hoy" />
-		<meta name="application-name" content="Comprar Móviles Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Móviles de <%= request.getParameter("filtro").replaceAll("-", " ") %> en Comprar Móviles Hoy"/> 
 		<meta property="og:description" content="Análisis, precios y comparativas online de móviles de <%= request.getParameter("filtro").replaceAll("-", " ") %> para que puedas comparar online móviles de distintos tipos, Smartphones libres, android y baratos"/>		
@@ -190,7 +182,6 @@
 		<meta name="description" content="Análisis, precios y comparativas online de móviles para que puedas comparar online y móviles de distintos tipos, Smartphones libres, android, baratos, de marcas como Samsung, Sony, Alcatel, Huawei, HTC, LG, Nokia, Motorola, Sony Ericsson, Blackberry o iPhone"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Móviles Hoy" />
-		<meta name="application-name" content="Comprar Móviles Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Móviles, precios y comparativas online en Comprar Móviles Hoy"/>
 		<meta property="og:description" content="Análisis, precios y comparativas online de móviles para que puedas comparar online y móviles de distintos tipos, smartphones, android, libres y baratos, de marcas como Samsung, Sony, Alcatel, Huawei, HTC, LG, Nokia, Motorola, Sony Ericsson, Blackberry o iPhone"/>
@@ -225,7 +216,6 @@
 		<meta name="description" content="Opinión y artículos de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> en nuestro blog de los mejores móviles para que puedas comparar precios online y móviles de distintos tipos, smartphones, android, libres y baratos"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Móvil Hoy" />
-		<meta name="application-name" content="Comprar Móviles Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Artículos y opinión sobre móviles de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> en Comprar Móviles Hoy"/>
 		<meta property="og:description" content="Opinión y artículos de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> en nuestro blog de los mejores móviles para que puedas comparar precios online y móviles de distintos tipos, smartphones, android, libres y baratos"/>
@@ -260,7 +250,6 @@
 		<meta name="description" content="Opinión, artículos y comparativas en nuestro blog de los mejores móviles para que puedas comparar precios online y móviles de distintos tipos, smartphones, android, libres y baratos, de marcas como Samsung, Sony, Alcatel, Huawei, HTC, LG, Nokia, Motorola, Sony Ericsson, Blackberry o iPhone"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Móvil Hoy" />
-		<meta name="application-name" content="Comprar Móviles Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Opinión y detalles sobre móviles para que puedas comparararlos y elegir tu móvil online"/>
 		<meta property="og:description" content="Opinión, artículos y comparativas en nuestro blog de los mejores móviles para que puedas comparar precios online y móviles de distintos tipos, Smartphones libres, android, baratos, de marcas como Samsung, Sony, Alcatel, Huawei, HTC, LG, Nokia, Motorola, Sony Ericsson, Blackberry o iPhone"/>
@@ -294,7 +283,6 @@
 		<meta name="description" content="Política de privacidad y condiciones de uso de Comprar Móviles Hoy"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Móviles Hoy" />
-		<meta name="application-name" content="Comprar Móviles Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Política de privacidad de Comprar Móviles Hoy"/>
 		<meta property="og:description" content="Política de privacidad y condiciones de uso de Comprar Móviles Hoy"/>
@@ -316,7 +304,6 @@
 		<meta name="description" content="Información para que puedas comprar online móviles libres y baratos para conseguir el móvil más adecuado a tus necesidades y comparar precios y móviles de distintos tipos, smartphones libres, android y baratos, de marcas como Samsung, Sony, Huawei, HTC, LG, Nokia, Motorola, Sony Ericsson o iPhone."/>
 		<meta name="author" content="Comprar Móviles Hoy" />
 		<meta name="copyright" content="Comprar Móviles Hoy" />
-		<meta name="application-name" content="Comprar Móviles Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Comprar Móviles Hoy - Análisis y opinión sobre móviles libres y smartphones para comprar un smartphone libre, barato y comparar precios online"/>
 		<meta property="og:description" content="Información para que puedas comprar online el móvil libre más adecuado a tus necesidades y comparar precios y móviles de distintos tipos, smartphones libres, android, baratos, de marcas como Samsung, Sony, Alcatel, Huawei, HTC, LG, Nokia, Motorola, Sony Ericsson, Blackberry o iPhone"/>
