@@ -225,6 +225,9 @@ $("head").append("<link rel='stylesheet' type='text/css' href='/css/fancybox.css
 $("head").append("<link rel='stylesheet' type='text/css' href='/css/rateit.css' />");
 </script>
 <script>
+	$("img.lazy").lazyload({
+	    threshold : 250
+	});
 	var pathname = window.location.pathname;
 	var parts = pathname.split('/');
 	$("#menuSuperior > li").removeClass('active');
