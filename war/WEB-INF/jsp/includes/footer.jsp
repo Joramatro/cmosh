@@ -200,6 +200,7 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="/js/jquery-1.11.2.min.js"></script>
 <script src="/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="/js/jquery.lazyload.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/isotope.min.js"></script>
 <script src="/js/jquery.imagesloaded.min.js"></script>
