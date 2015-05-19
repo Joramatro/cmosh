@@ -409,8 +409,8 @@
 	<script>
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 			$(".slide-caption").hide();
-			$("#_image6").css('margin-left', '');
-			$(".imageContextual").css('margin-left', '');
+			document.getElementById("_image6").style.marginLeft="0px";
+			document.getElementsByClassName("imageContextual").style.marginLeft="0px";
 		}
 		if($('#footer').width() < 1345){
 			$(".slide-caption").hide();
